@@ -1,0 +1,89 @@
+
+body{
+    background-color: #F7ECDE;
+}
+/*  #www {
+    position: relative;
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+
+    
+}
+ */
+
+.bttt{
+    font-family: "Righteous", cursive;
+    
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+}
+
+button{
+    display: flex !important;
+    justify-content: center !important;
+    justify-items: center !important;
+    align-content: center;
+}
+
+
+table{
+    
+    background-color: #fff;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    
+    text-align: left;
+    padding: .4rem;
+  }
+  .stylee h1{
+    position: relative;
+    position: relative;
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    
+  }
+
+.bor{
+  border-bottom: 2px dotted black;
+  width: 100%;
+  
+}
+
+  .stylee h1::before{
+    content: '';
+    position: absolute;
+    width: 22%;
+    height: 25%;
+    left: 39%;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+        z-index: -1;
+  }
+
+  .stylee h1:hover::before{
+    height: 50%;
+    transition: height .7s;
+
+    
+
+  }
+  .stylee h1::before:hover{
+    width: 100%;
+    background-color: red;
+  }
+
+
+  .stylee:hover{
+    transition: height 350ms;    height: 38%
+
+  }
